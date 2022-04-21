@@ -413,8 +413,9 @@
     justify-content: center;
     text-align: center;
     font-family: cocogoose, sans-serif;
+    background-color: #d3d3d3;
   }
-  
+
   .about-desktop h1 {
     display: block;
     margin-left: auto;
@@ -459,7 +460,7 @@
 
   .main-desktop-about h3 {
     font-family: lato, serif;
-    font-size: 23px;
+    font-size: 28px;
     font-weight: bolder;
     text-align: center;
     margin-top: 20px;
@@ -522,9 +523,10 @@
     position: absolute;
     top: 70px;
     text-align: center;
-    left: 35%;
-    right: 0%;
-    color: red;
+    left: 39%;
+    right: 4%;
+    color: white;
+    font-size: x-large;
   }
 
   .time2 {
@@ -532,9 +534,10 @@
     position: absolute;
     bottom: 50px;
     text-align: center;
-    color: red;
+    color: white;
     left: 20%;
     margin-bottom: 100px;
+    font-size: x-large;
   }
 
   .picture-part h4 {
@@ -546,7 +549,6 @@
   }
 
   #pak {
-    background-color: white;
     margin-top: 30px;
     font-family: lato, serif;
     color: #3e3e3e;
@@ -630,10 +632,11 @@
 
   .picture-part-desktop {
     font-family: lato, serif;
-    font-size: 23px;
+    font-size: 29px;
     font-weight: bolder;
     text-align: center;
     margin-top: 20px;
+    background-color: #d3d3d3;
   }
 
   .logoimage {

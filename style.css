@@ -276,6 +276,7 @@
   .house-img {
     width: 110px;
     height: 80px;
+    position: relative;
   }
 
   /* stylelint-disable-next-line no-descending-specificity */
@@ -309,6 +310,64 @@
 
   .hide-card {
     display: none;
+  }
+
+  .first {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    bottom: 150px;
+    left: -30px;
+    top: -10px;
+  }
+
+  .second {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    bottom: 150px;
+    left: -30px;
+    top: -10px;
+  }
+
+  .third {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    bottom: 150px;
+    left: -30px;
+    top: -10px;
+  }
+
+  .forth {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    bottom: 150px;
+    left: -30px;
+    top: -10px;
+  }
+
+  .fifth {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    bottom: 150px;
+    left: -30px;
+    top: -10px;
+  }
+
+  .six {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    bottom: 150px;
+    left: -30px;
+    top: -10px;
+  }
+
+  .square-holder {
+    position: relative;
   }
 }
 
@@ -392,7 +451,7 @@
     display: flex;
     background-color: white;
     color: white;
-    font-size: 12px;
+    font-size: 15px;
     list-style: none;
     justify-content: space-between;
     margin-left: 45%;
@@ -415,6 +474,7 @@
 
   .about {
     color: red;
+    text-decoration: none;
   }
 
   .text-description {
@@ -424,15 +484,8 @@
     background-size: 100% 350px;
     background-position: top left;
     color: #d3d3d3;
-    background-color: white;
-  }
-
-  .text-2ndcontainer {
-    background-image: url("/image/colorfullcircle.png");
-    background-size: 100px;
-    background-repeat: no-repeat;
-    background-position-x: 49%;
-    background-position-y: 84%;
+    filter: brightness(0.9);
+    background-color: #d3d3d3;
   }
 
   #hello {
@@ -450,7 +503,7 @@
     width: 70%;
     color: #ec5242;
     font-family: cocogoose, sans-serif;
-    font-size: 68px;
+    font-size: 58px;
     font-weight: 600;
     line-height: 98px;
     background-image: url("/image/textback.webp");
@@ -463,6 +516,7 @@
     padding: 15px;
     margin-left: 135px;
     width: 40%;
+    margin-top: 50px;
     margin-bottom: 15px;
     border-style: solid;
     border-color: #ec5242;
@@ -470,6 +524,7 @@
     background-color: white;
     height: 15%;
     color: black;
+    font-family: lato, serif;
   }
 
   #time-frame {
@@ -479,14 +534,18 @@
     margin-bottom: 10px;
     font-family: cocogoose, sans-serif;
     color: #3e3e3e;
+    margin-top: 20px;
   }
 
   #place {
     margin-left: 150px;
     color: black;
+    margin-top: 20px;
+    font-family: lato, serif;
   }
 
   .card-container {
+    position: relative;
     display: flex;
     background-color: rgba(255, 255, 255, 0.09);
   }
@@ -497,7 +556,7 @@
   }
 
   .main-class {
-    height: 480px;
+    height: 700px;
     background-image: url("/image/pattern_bg.png");
     background-color: #272a31;
     display: flex;
@@ -510,24 +569,24 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 50px;
   }
 
   .card {
-    width: 200px;
-    height: 200px;
+    width: 17%;
+    height: 250px;
     background-color: rgba(255, 255, 255, 0.1);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 10px 20px;
-    margin: 5px;
+    margin: 2px;
     text-align: center;
+    margin-top: 60px;
   }
 
   .red-btn-container-desktop {
-    width: 255px;
+    width: 355px;
     color: white;
     display: flex;
     height: 50px;
@@ -536,6 +595,8 @@
     text-decoration: underline;
     font-family: lato, sans-serif;
     padding-bottom: 15px;
+    margin-top: 180px;
+    font-size: 30px;
   }
 
   .house-detais-conatiner {
@@ -569,7 +630,7 @@
     padding-top: 25px;
     padding-bottom: 5px;
     font-family: lato, serif;
-    font-size: x-large;
+    font-size: 30px;
   }
 
   .main-class hr {
@@ -583,6 +644,7 @@
     width: 130px;
     height: 100px;
     margin-bottom: 60px;
+    position: relative;
   }
 
   .house-detail hr {
@@ -634,6 +696,7 @@
   .below-section {
     display: grid;
     flex-wrap: wrap;
+    background-color: #d3d3d3;
   }
 
   .footer-logos {
@@ -650,13 +713,12 @@
 
   .footer-contact {
     width: 100%;
-    height: 200px;
     background-color: white;
   }
 
   .img-logo {
-    width: 100px;
-    height: 30px;
+    width: 137px;
+    height: 51px;
     filter: contrast(0.1);
     margin: 30px;
   }
@@ -702,17 +764,18 @@
   }
 
   .footer-contact nav {
-    display: block ruby;
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
     width: 100%;
     font-family: lato, sans-serif;
     font-size: 20px;
-    margin-left: 150px;
+    justify-content: center;
     margin-top: 80px;
   }
 
   #place-ex {
-    margin-left: 20px;
+    margin-top: 33px;
+    padding-left: 70px;
   }
 
   .logoimage {
@@ -721,6 +784,83 @@
     display: block;
     margin-left: 350px;
     margin-top: -60px;
+  }
+
+  .boot-img {
+    width: 300px;
+    display: flex;
+    margin-left: 300px;
+    margin-bottom: 10px;
+  }
+
+  .red-circle {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 200px;
+    filter: contrast(0.9);
+  }
+
+  .cards-container .card:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .first {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    bottom: 150px;
+    left: -30px;
+    top: -10px;
+  }
+
+  .second {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    bottom: 150px;
+    left: -30px;
+    top: -10px;
+  }
+
+  .third {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    bottom: 150px;
+    left: -30px;
+    top: -10px;
+  }
+
+  .forth {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    bottom: 150px;
+    left: -30px;
+    top: -10px;
+  }
+
+  .fifth {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    bottom: 150px;
+    left: -30px;
+    top: -10px;
+  }
+
+  .six {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    bottom: 150px;
+    left: -30px;
+    top: -10px;
+  }
+
+  .square-holder {
+    position: relative;
   }
 }
 

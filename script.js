@@ -1,5 +1,6 @@
 const houseProjects = [
   {
+    cname: 'six',
     url1: '/image/house1.jfif',
     h1: 'house-detail',
     h2: 'Details of the house',
@@ -7,6 +8,7 @@ const houseProjects = [
 
   },
   {
+    cname: 'fifth',
     url1: '/image/house8.jpg',
     h1: 'house-detail',
     h2: 'Details of the house',
@@ -15,6 +17,7 @@ const houseProjects = [
   },
 
   {
+    cname: 'forth',
     url1: '/image/house6.jpeg',
     h1: 'house-detail',
     h2: 'Details of the house',
@@ -22,6 +25,7 @@ const houseProjects = [
 
   },
   {
+    cname: 'third',
     url1: '/image/house11.jpg',
     h1: 'house-detail',
     h2: 'Details of the house',
@@ -29,6 +33,7 @@ const houseProjects = [
 
   },
   {
+    cname: 'second',
     url1: '/image/house9.jpg',
     h1: 'house-detail',
     h2: 'Details of the house',
@@ -36,6 +41,7 @@ const houseProjects = [
 
   },
   {
+    cname: 'first',
     url1: '/image/house12.jpeg',
     h1: 'house-detail',
     h2: 'Details of the house',
@@ -49,7 +55,10 @@ function renderCards(i) {
   const div = document.createElement('div');
   div.className = 'house-cards';
 
-  div.innerHTML = `  <img class="house-img" src="${houseProjects[i].url1}" alt="">
+  div.innerHTML = `<div class="square-holder">
+  <img class="${houseProjects[i].cname}" src="/image/speaker-back.jpeg" alt="">
+  <img class="house-img" src="${houseProjects[i].url1}" alt="">
+  </div> 
     <div class="discribe">
      <h1>
      ${houseProjects[i].h1} 
