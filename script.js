@@ -1,7 +1,7 @@
 const houseProjects = [
   {
     cname: 'six',
-    url1: '/image/house1.jfif',
+    url1: './image/house1.jfif',
     h1: 'Pent-House',
     h2: 'Located in Adama',
     par: '3 bed room,2 kitchens and has a pool',
@@ -9,7 +9,7 @@ const houseProjects = [
   },
   {
     cname: 'fifth',
-    url1: '/image/house8.jpg',
+    url1: './image/house8.jpg',
     h1: 'Brick_House',
     h2: 'Located in Addis Ababa',
     par: '5 bed room,2 kitchens and has a pool',
@@ -18,7 +18,7 @@ const houseProjects = [
 
   {
     cname: 'forth',
-    url1: '/image/house6.jpeg',
+    url1: './image/house6.jpeg',
     h1: 'Wood-House',
     h2: 'Located in Arbaminch',
     par: '4 bed room,2 kitchens and has a yard',
@@ -26,7 +26,7 @@ const houseProjects = [
   },
   {
     cname: 'third',
-    url1: '/image/house11.jpg',
+    url1: './image/house11.jpg',
     h1: 'White-House',
     h2: 'Located in Debrexit',
     par: '5 bed room,2 kitchens and has a cinima hall',
@@ -34,7 +34,7 @@ const houseProjects = [
   },
   {
     cname: 'second',
-    url1: '/image/house9.jpg',
+    url1: './image/house9.jpg',
     h1: 'Glass-House',
     h2: 'Located in Assosa',
     par: '2 bed room,2 kitchens and has a pool',
@@ -42,7 +42,7 @@ const houseProjects = [
   },
   {
     cname: 'first',
-    url1: '/image/house12.jpeg',
+    url1: './image/house12.jpeg',
     h1: 'Modern-House',
     h2: 'Located in Gondor',
     par: '3 bed room,2 kitchens and has a pool',
@@ -56,7 +56,7 @@ function renderCards(i) {
   div.className = 'house-cards';
 
   div.innerHTML = `<div class="square-holder">
-  <img class="${houseProjects[i].cname}" src="/image/speaker-back.jpeg" alt="">
+  <img class="${houseProjects[i].cname}" src="./image/speaker-back.jpeg" alt="">
   <img class="house-img" src="${houseProjects[i].url1}" alt="">
   </div> 
     <div class="discribe">
