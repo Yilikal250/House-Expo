@@ -14,7 +14,7 @@
     
 
 > this is a link to the loom video explaining about the project ( https://www.loom.com/share/d58a4f2d66974232bdbb0b765082b27e  )
->  this is a link to the deployed page (  https://yilikal250.github.io/House-Expo/ )
+>  this is a link to the deployed page ( https://yilikal250.github.io/House-Expo/ )
 
 
 Built With
