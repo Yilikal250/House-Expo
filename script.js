@@ -2,50 +2,50 @@ const houseProjects = [
   {
     cname: 'six',
     url1: '/image/house1.jfif',
-    h1: 'house-detail',
-    h2: 'Details of the house',
-    par: 'description of the hous what we have know',
+    h1: 'Pent-House',
+    h2: 'Located in Adama',
+    par: '3 bed room,2 kitchens and has a pool',
 
   },
   {
     cname: 'fifth',
     url1: '/image/house8.jpg',
-    h1: 'house-detail',
-    h2: 'Details of the house',
-    par: 'description of the hous what we have know',
+    h1: 'Brick_House',
+    h2: 'Located in Addis Ababa',
+    par: '5 bed room,2 kitchens and has a pool',
 
   },
 
   {
     cname: 'forth',
     url1: '/image/house6.jpeg',
-    h1: 'house-detail',
-    h2: 'Details of the house',
-    par: 'description of the hous what we have know',
+    h1: 'Wood-House',
+    h2: 'Located in Arbaminch',
+    par: '4 bed room,2 kitchens and has a yard',
 
   },
   {
     cname: 'third',
     url1: '/image/house11.jpg',
-    h1: 'house-detail',
-    h2: 'Details of the house',
-    par: 'description of the hous what we have know',
+    h1: 'White-House',
+    h2: 'Located in Debrexit',
+    par: '5 bed room,2 kitchens and has a cinima hall',
 
   },
   {
     cname: 'second',
     url1: '/image/house9.jpg',
-    h1: 'house-detail',
-    h2: 'Details of the house',
-    par: 'description of the hous what we have know',
+    h1: 'Glass-House',
+    h2: 'Located in Assosa',
+    par: '2 bed room,2 kitchens and has a pool',
 
   },
   {
     cname: 'first',
     url1: '/image/house12.jpeg',
-    h1: 'house-detail',
-    h2: 'Details of the house',
-    par: 'description of the hous what we have know',
+    h1: 'Modern-House',
+    h2: 'Located in Gondor',
+    par: '3 bed room,2 kitchens and has a pool',
 
   },
 

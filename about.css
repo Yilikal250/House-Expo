@@ -402,9 +402,10 @@
     display: none;
   }
 
-  .Home {
+  #Home {
     color: red;
     font-family: cocogoose, sans-serif;
+    text-decoration: none;
   }
 
   .about-desktop {
