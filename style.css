@@ -33,6 +33,26 @@
     display: none;
   }
 
+  #about a {
+    text-decoration: none;
+    color: #ec5242;
+  }
+
+  #Hom {
+    text-decoration: none;
+    color: #ec5242;
+  }
+
+  #bout-p a {
+    text-decoration: none;
+    color: #ec5242;
+  }
+
+  #home-p a {
+    text-decoration: none;
+    color: #ec5242;
+  }
+
   .mobile-humberg-container {
     background-image: url("./image/photo_2022-04-18_15-43-00.jpg");
     background-repeat: no-repeat;
@@ -236,7 +256,6 @@
     height: 50px;
     font-family: lato, serif;
     font-weight: bold;
-    margin-top: 77%;
     margin-bottom: 20px;
   }
 
@@ -252,7 +271,6 @@
     height: 50px;
     font-family: lato, serif;
     font-weight: bold;
-    margin-top: 800px;
     margin-bottom: 20px;
   }
 
@@ -275,7 +293,11 @@
   }
 
   .house-detais-conatiner {
-    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    flex-direction: column;
   }
 
   .house-img {
@@ -300,6 +322,7 @@
 
   .discribe h1 {
     font-size: 20px;
+    font-family: lato, serif;
   }
 
   .discribe h2 {
@@ -307,10 +330,14 @@
     font-style: italic;
     color: #ec5242;
     margin-top: 3px;
+    font-family: lato, serif;
   }
 
   .discribe p {
     margin-top: 10px;
+    font-family: lato, serif;
+    width: 200px;
+    font-size: 12px;
   }
 
   .hide-card {
@@ -426,6 +453,22 @@
 
   .home {
     display: none;
+  }
+
+  #home-p a {
+    text-decoration: none;
+    color: #272a31;
+  }
+
+  #about a {
+    text-decoration: none;
+    color: #ec5242;
+  }
+
+  #Hom {
+    color: red;
+    font-family: cocogoose, sans-serif;
+    text-decoration: none;
   }
 
   html,
@@ -674,6 +717,7 @@
 
   .discribe {
     margin-left: 10px;
+    margin-right: 70px;
   }
 
   .discribe hr {
@@ -682,6 +726,7 @@
 
   .discribe h1 {
     font-size: 20px;
+    font-family: lato, serif;
   }
 
   .discribe h2 {
@@ -689,10 +734,12 @@
     font-style: italic;
     color: #ec5242;
     margin-top: 3px;
+    font-family: lato, serif;
   }
 
   .discribe p {
     margin-top: 10px;
+    font-family: lato, serif;
   }
 
   .house-detail p {
