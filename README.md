@@ -54,4 +54,4 @@ Microverse is the best place to learn !!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.Original design idea by Cindy Shin in Behance.
+This project is [MIT](./MIT.md) licensed.
