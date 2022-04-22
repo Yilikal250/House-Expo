@@ -828,7 +828,7 @@
     width: 100%;
     font-family: lato, sans-serif;
     font-size: 20px;
-    justify-content: center;
+    justify-content: left;
     margin-top: 80px;
   }
 
@@ -841,14 +841,14 @@
     position: initial;
     width: 160px;
     display: block;
-    margin-left: 350px;
+    margin-left: 150px;
     margin-top: -60px;
   }
 
   .boot-img {
     width: 300px;
     display: flex;
-    margin-left: 300px;
+    margin-left: 150px;
     margin-bottom: 10px;
   }
 
