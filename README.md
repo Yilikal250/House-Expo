@@ -9,8 +9,8 @@
     
     A Good Homes exhibition home is a dwelling built for the purposes of the public exhibition and marketing of new dwellings, whether or not it is intended to be sold as a private dwelling after its use for those purposes is completed, and includes any associated sales or home finance office or place used for displays.
 
-this is a link to the loom video explaining about the project  https://www.loom.com/share/d58a4f2d66974232bdbb0b765082b27e
-this is a link to the deployed page
+this is a link to the loom video explaining about the project ( https://www.loom.com/share/d58a4f2d66974232bdbb0b765082b27e  )
+this is a link to the deployed page (  https://yilikal250.github.io/House-Expo/ )
 
 
 Built With
